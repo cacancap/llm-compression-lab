@@ -7,7 +7,7 @@ Notebook chạy inference cơ bản và ghi chú cấu trúc file mô hình Hugg
 ## Checklist
 
 - [x] Tạo khung thư mục và notebook khởi đầu.
-- [ ] Tạo môi trường Python riêng và cài các thư viện.
+- [x] Tạo môi trường Python riêng và cài các thư viện.
 - [ ] Chạy `scripts/check_environment.py`, ghi phiên bản Python, thư viện, GPU.
 - [ ] Chọn model phù hợp tài nguyên máy và điền `configs/week01.json`.
 - [ ] Đọc model card, ghi kiến trúc, số tham số, giấy phép và revision.

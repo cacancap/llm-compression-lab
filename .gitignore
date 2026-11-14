@@ -13,3 +13,4 @@ models/*
 outputs/**
 !outputs/week01/
 !outputs/week01/.gitkeep
+.vscode/

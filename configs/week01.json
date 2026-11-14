@@ -1,5 +1,5 @@
 {
-  "model_id": "",
+  "model_id": "gpt2",
   "device": "cpu",
   "prompt": "Machine learning is",
   "max_new_tokens": 50,

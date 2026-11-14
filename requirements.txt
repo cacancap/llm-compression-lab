@@ -1,0 +1,9 @@
+# Khóa phiên bản sau khi xác nhận môi trường thực nghiệm.
+torch
+transformers
+datasets
+tokenizers
+safetensors
+huggingface-hub
+jupyterlab
+ipykernel

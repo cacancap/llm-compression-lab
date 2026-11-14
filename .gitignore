@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.env
+.env.*
+!.env.example
+.cache/
+data/*
+!data/.gitkeep
+models/*
+!models/.gitkeep
+outputs/**
+!outputs/week01/
+!outputs/week01/.gitkeep

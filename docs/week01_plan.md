@@ -8,15 +8,24 @@ Notebook chạy inference cơ bản và ghi chú cấu trúc file mô hình Hugg
 
 - [x] Tạo khung thư mục và notebook khởi đầu.
 - [x] Tạo môi trường Python riêng và cài các thư viện.
-- [ ] Chạy `scripts/check_environment.py`, ghi phiên bản Python, thư viện, GPU.
-- [ ] Chọn model phù hợp tài nguyên máy và điền `configs/week01.json`.
-- [ ] Đọc model card, ghi kiến trúc, số tham số, giấy phép và revision.
-- [ ] Chạy tokenization; quan sát input IDs và attention mask.
-- [ ] Tải model, chạy inference, giải mã đầu ra.
-- [ ] Thử ít nhất ba prompt và ghi nhận kết quả.
-- [ ] Tìm hiểu vai trò của `datasets`, `tokenizers`, `transformers`.
-- [ ] Kiểm tra danh sách file model và hoàn thành `model_files.md`.
-- [ ] Lưu notebook có kết quả, nhật ký thực nghiệm và báo cáo ngắn.
+- [x] Chạy `scripts/check_environment.py`, ghi phiên bản Python, thư viện, GPU.
+- [x] Chọn model phù hợp tài nguyên máy và điền `configs/week01.json`.
+- [x] Đọc model card, ghi kiến trúc, số tham số, giấy phép và revision.
+- [x] Chạy tokenization; quan sát input IDs và attention mask.
+- [x] Tải model, chạy inference, giải mã đầu ra.
+- [x] Thử ít nhất ba prompt và ghi nhận kết quả.
+- [x] Tìm hiểu vai trò của `datasets`, `tokenizers`, `transformers`.
+- [x] Kiểm tra danh sách file model và hoàn thành `model_files.md`.
+- [ ] Lưu notebook có kết quả đầy đủ, nhật ký thực nghiệm và báo cáo ngắn. (Nhật ký và báo cáo đã có; chờ lưu output toàn bộ notebook.)
+
+## Trạng thái kiểm chứng hiện tại
+
+- Đã có năm kết quả inference, ghi chú model, nhật ký và [báo cáo](../reports/week01_report.md).
+- Notebook người học đã lưu output của dataset, inference và khảo sát Hub; cell khảo sát trọng số cục bộ chưa có output trong bản kiểm tra trước lần cập nhật tài liệu này.
+- [ ] Người học Restart Kernel → Run All trong VS Code và Ctrl+S để xác nhận toàn bộ notebook từ trạng thái sạch.
+- Checklist sản phẩm ở trên không thay thế bước kiểm chứng này hoặc khả năng tự giải thích của người học.
+- Hướng dẫn bên dưới là hướng dẫn từng bước ban đầu. Notebook hiện tại đã dùng dataset năm prompt và tự lưu vào `outputs/week01/run_<timestamp>/`; không còn cần đổi prompt thủ công từng lượt.
+- Môi trường thực tế dùng Conda `llm-compression-lab`, không dùng `.venv`.
 
 ## Hoàn thành khi
 
@@ -30,8 +39,7 @@ Tuần 1 chưa triển khai quantization hay distillation.
 
 Đọc [lộ trình 8 tuần và nguồn PDF](roadmap_8_weeks.md) để phân biệt yêu cầu gốc
 với đề xuất thực hành dưới đây. Checklist phía trên được giữ nguyên; chỉ đánh dấu
-khi chính bạn đã chạy và lưu bằng chứng. Tài liệu này chưa chứng nhận môi trường
-hay notebook đã chạy thành công.
+khi chính bạn đã chạy và lưu bằng chứng. Trạng thái thực nghiệm hiện tại được ghi ở mục kiểm chứng phía trên; các đoạn hướng dẫn dưới đây mô tả cách thực hành.
 
 Lệnh `powershell` chạy tại thư mục gốc repository. Code `python` chạy trong cell
 của [notebook tuần 1](../notebooks/week01_huggingface_basics.ipynb).

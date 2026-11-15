@@ -1,7 +1,8 @@
 {
   "model_id": "gpt2",
-  "device": "cpu",
-  "prompt": "Machine learning is",
+  "revision": "607a30d783dfa663caf39e06633721c8d4cfcd7e",
+  "device": "cuda",
+  "prompt": "The purpose of a university is",
   "max_new_tokens": 50,
   "seed": 42
 }
